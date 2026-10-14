@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "appId": "fbe91a30-8964-426f-ba24-f7ba9bcf40bd",
+  "appDisplayName": "Not-Discharge",
+  "region": "prod",
+  "appType": "CodeApp",
+  "environmentId": "cd78a59b-e16f-e4aa-b0a1-8e450a70ed56",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {
+    "6d148c22-0b21-4e64-bc47-94620cc10dd5": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+      "displayName": "Microsoft Dataverse",
+      "dataSources": [
+        "commondataserviceforapps"
+      ],
+      "authenticationType": "Oauth",
+      "dataSets": {}
+    }
+  },
+  "databaseReferences": {}
+}
